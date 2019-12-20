@@ -1,0 +1,137 @@
+.our_client {
+    padding: 30px 0;
+    background: linear-gradient(#00000094, #000000a2), url('../../Assets/img/background/newsletter.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.clients {
+    display: flex;
+    
+}
+
+.amazon:hover i,
+.apple:hover i,
+.google:hover i,
+.microsoft:hover i {
+    transform: scale(1.4);
+    transition: .5s ease-in;
+}
+
+.clients i {
+    font-size: 400%;
+    
+}
+
+h5 {
+    margin: 0;
+    padding-top: 10px;
+    color: #f1f1f1;
+}
+
+.amazon,
+.apple,
+.google,
+.microsoft {
+    flex: 1;
+    text-align: center;
+    padding: 30px 0;
+    border: 1px solid #525252;
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px rgb(61, 60, 60);
+    margin: 40px;
+}
+
+.amazon i {
+    color: #dbb8a1;
+}
+
+.amazon h5::after {
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background-color: #dbb8a1;
+    margin: 5px auto;
+}
+
+.apple i {
+    color: #f1f1f1;
+}
+
+.apple h5::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #f1f1f1;
+    margin: 5px auto;
+}
+
+
+.google i {
+    color: #db8e7b;
+}
+
+.google h5::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #db8e7b;
+    margin: 5px auto;
+}
+
+.microsoft i {
+    color: #52b7bb;
+}
+
+.microsoft h5::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #52b7bb;
+    margin: 5px auto;
+}
+
+
+/* -----------MEDIA QUERY---------- */
+
+@media (max-width: 1024px) {
+    .our_client .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 812px) {
+    .amazon,
+    .apple,
+    .google,
+    .microsoft {
+        margin: 20px;
+     }
+}
+
+@media (max-width: 736px) {
+    .clients {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .amazon i,
+    .apple i,
+    .google i,
+    .microsoft i {
+        margin: 0 40px;
+    }
+}
+
+
+@media (max-width: 414px) {
+    .clients {
+        flex-direction: column;
+    }
+}
