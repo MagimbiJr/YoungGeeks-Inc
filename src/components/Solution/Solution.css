@@ -1,0 +1,148 @@
+h2, 
+h3,
+h4 {
+    margin: 0;
+}
+
+.solution {
+    padding: 70px 0;
+}
+
+.solution_wrapper {
+    display: flex;
+}
+
+.solution_head {
+    flex: 1;
+    margin: 0 2%;
+    padding-top: 7%;
+    padding-right: 5%;
+}
+
+.solution_content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.solution_head h4 {
+    font-size: 115%;
+    font-weight: 400;
+    padding-bottom: 15px;
+    color: #04c47a;
+}
+
+.solution_head h2 {
+    font-size: 200%;
+    font-weight: 400;
+    color: #0d1663;
+    padding-right: 50px;
+}
+
+.solution_btn {
+    padding: 13px 45px;
+    border: 1px solid #04c47a;
+    border-radius: 6px;
+    background-color: #04c47a;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.solution-cont_item i {
+    font-size: 250%;
+    color: #480d63;
+}
+
+.solution-cont_item h3 {
+    font-size: 130%;
+    font-weight: 400;
+    color: #0d1663;
+    padding-top: 40px;
+}
+
+.solution-cont_item p {
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-right: 60px;
+}
+
+
+/* ------------MEDIA QUERY------------- */
+
+@media (max-width: 1024px) {
+    .solution .container {
+        width: 90%;
+    }
+
+    .solution_head h2 {
+        padding-right: 35px;
+    }
+
+    .solution-cont_item h3 {
+        padding-top: 20px;
+    }
+
+    .solution-cont_item p {
+        padding-right: 15px;
+    }
+}
+
+
+@media (max-width: 812px) {
+    .solution {
+        padding: 40px 0;
+    }
+    .solution .container {
+        width: 80%;
+    }
+    .solution_wrapper {
+        flex-direction: column;
+    }
+
+    .solution_head {
+        padding-bottom: 40px;
+    }
+
+    .solution_head h2 {
+        padding-right: 0;
+    }
+
+    .solution_content {
+        flex-wrap: nowrap;
+    }
+
+    .solution-cont_item {
+        padding: 0 20px;
+    }
+
+    .solution_btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .solution .container {
+        width: 95%;
+    }
+
+    .solution_head {
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .solution_content {
+        flex-wrap: wrap;
+    }
+
+    .solution-cont_item {
+        padding: 0 10px;
+    }
+
+    .solution-cont_item p {
+        padding-right: 0;
+    }
+}
+
