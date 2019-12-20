@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header/Header';
 import SideDrawer from '../src/components/Header/SideDrawer/SideDrawer';
 import Backdrop from '../src/components/Header/Backdrop/Backdrop';
+import Features from '../src/components/Features/Features';
 import '../src/Assets/fontawesome/css/all.min.css'
 import './App.css';
 
@@ -30,6 +31,7 @@ class App extends React.Component {
         <Header onDrawerClick={this.sideDrawerToggler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
+        <Features />
       </div>
     );
   }

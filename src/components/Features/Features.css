@@ -1,0 +1,151 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.features {
+    padding: 70px 0;
+    background-color: #f3f3f3;
+}
+
+.features_wrapper {
+    display: flex;
+    padding: 0 50px;
+}
+
+.feature_content {
+    width: 60%;
+}
+
+.feature_content h4 {
+    font-size: 105%;
+    font-weight: 400;
+    color: #04c47a;
+    padding-bottom: 30px;
+}
+
+.feature_content h2 {
+    font-size: 180%;
+    font-weight: 400;
+    margin-right: 30%;
+    color: #042172;
+    padding-bottom: 30px;
+}
+
+.feature_cont_items {
+    width: 83%;
+    display: flex;
+}
+
+.cont_item {
+    padding: 0 35px;
+}
+
+.cont_item:first-child {
+    padding: 0;
+}
+
+.cont_item h3 {
+    font-size: 120%;
+    font-weight: 400;
+    color: #042172;
+}
+
+.cont_item i {
+    color: #04c47a;
+    font-size: 95%;
+    padding-right: 7px;
+}
+
+.cont_item p {
+    color: #575757;
+    font-size: 100%;
+}
+
+.feature_btn {
+    padding: 15px 50px;
+    font-size: 95%;
+    border: 1px solid #04c47a;
+    border-radius: 6px;
+    background-color: #04c47a;
+    color: #ffffff;
+    margin-top: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.feature_cont_img {
+    width: 40%;
+}
+
+.feature_cont_img img {
+    width: 60%;
+}
+
+
+/* --------MEDIA QUERY------- */
+
+@media (max-width: 1024px) {
+    .features .container {
+        width: 95%;
+    }
+
+    .feature_cont_items {
+        width: 100%;
+    }
+
+    .feature_content h2 {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 812px) {
+    .features_wrapper {
+        flex-direction: column;
+    }
+
+    .feature_cont_img {
+        margin-bottom: 15px;
+    }
+
+    .feature_content {
+        width: 100%;
+    }
+
+    .feature_btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .features .container {
+        width: 100%;
+    }
+
+    .features_wrapper {
+        padding: 0 30px;
+    }
+    .feature_content h2 {
+        margin: 0;
+    }
+
+    .feature_cont_items {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    .cont_item {
+        padding: 10px 0;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .feature_cont_items {
+        padding: 0 4px;
+    }
+}
