@@ -4,7 +4,8 @@ import SideDrawer from '../src/components/Header/SideDrawer/SideDrawer';
 import Backdrop from '../src/components/Header/Backdrop/Backdrop';
 import Features from '../src/components/Features/Features';
 import OurClient from '../src/components/OurClient/OurClient';
-import Solution from '../src/components/Solution/Solution'
+import Solution from '../src/components/Solution/Solution';
+import Pricing from '../src/components/Pricing/Pricing';
 import '../src/Assets/fontawesome/css/all.min.css'
 import './App.css';
 
@@ -36,6 +37,7 @@ class App extends React.Component {
         <Features />
         <OurClient />
         <Solution />
+        <Pricing />
       </div>
     );
   }
