@@ -6,6 +6,8 @@ import Features from '../src/components/Features/Features';
 import OurClient from '../src/components/OurClient/OurClient';
 import Solution from '../src/components/Solution/Solution';
 import Pricing from '../src/components/Pricing/Pricing';
+import Form from '../src/components/Form/Form'
+import Footer from '../src/components/Footer/Footer'
 import '../src/Assets/fontawesome/css/all.min.css'
 import './App.css';
 
@@ -35,9 +37,11 @@ class App extends React.Component {
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
         <Features />
-        <OurClient />
         <Solution />
         <Pricing />
+        <OurClient />
+        <Form />
+        <Footer />
       </div>
     );
   }
