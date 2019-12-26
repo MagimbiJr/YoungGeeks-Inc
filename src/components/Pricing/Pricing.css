@@ -74,7 +74,10 @@
 }
 
 .card_content {
-    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 30px 0; */
 }
 
 .card_content h2 {
@@ -98,7 +101,7 @@
 }
 
 .card_content li {
-    padding: 8px 43px;
+    padding: 8px 0;
     color: #040f29;
     font-size: 90%;
 }
@@ -108,14 +111,19 @@
     padding-right: 10px;
 }
 
+.card_content li .fa-times {
+    color: #ee1d2e;
+}
+
 
 .card_btn {
     padding: 15px 50px;
     border: 1px solid #04c47a;
     border-radius: 6px;
-    margin: 20px 20%;
     text-decoration: none;
     color: #162d66;
+    width: 40%;
+    text-align: center;
 }
 
 .card_btn:hover {

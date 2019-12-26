@@ -23,7 +23,7 @@ const Pricing = props => (
                             <li><i class="fas fa-check"></i> Unlimited Tamplates</li>
                             <li><i class="fas fa-check"></i> Marketing Tutorials</li>
                             <li><i class="fas fa-check"></i> Free support for 1 year</li>
-                            <li><i class="fas fa-times"></i></li>
+                            <li><i class="fas fa-times"></i> Advanced Marketing Tools</li>
                         </ul>
                         <a href="/" className="card_btn">Sign up Now</a>
                     </div>
