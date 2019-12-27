@@ -1,0 +1,130 @@
+.toolbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 20px 0;
+}
+
+.toolbar_scroll {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 200;
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #887777;
+    transition: .7s;
+}
+
+.toolbar_scroll .logo a {
+    color: #333;
+}
+
+.toolbar_scroll .navs a {
+    color: #333;
+}
+
+.toolbar_scroll .navs a:hover {
+    color: #050472;
+}
+
+.toolbar_scroll .button .fa-bars {
+    color: #333;
+}
+
+.navigations {
+    display: flex;
+}
+
+.logo a {
+    color: #fff;
+    font-size: 210%;
+    text-decoration: none;
+}
+
+.flex_one {
+    flex: 1;
+}
+
+.navigations ul {
+    margin-top: 15px;
+    display: inline-flex;
+    list-style: none;
+    
+}
+
+.navigations li {
+    padding: 0 15px;
+}
+
+.navs a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 105%;
+}
+
+.navs a:hover {
+    color: #a3a3a3;
+    transition: .3s;
+}
+.nav_separator {
+    margin-left: 70px;
+    display: inline-flex;
+    padding: 0;
+}
+
+.nav_separator a {
+    color: #fff;
+}
+
+.nav_separator a:hover {
+    color:#050472;
+}
+
+.nav_btn:hover {
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    padding: 8px 35px;
+    background-color: #fff;
+}
+
+
+.button {
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    display: none;
+}
+
+.button i {
+    font-size: 230%;
+    color: #fff;
+}
+
+/* ---------   MEDIA QUERY -----------*/
+
+@media (max-width: 1024px) {
+    .navs {
+        display: none;
+    }
+
+    .button {
+        display: block;
+    }
+}
+
+@media (max-width: 414px) {
+    .header {
+        height: 100vh;
+    }
+
+    .navbar {
+        width: 95%;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
