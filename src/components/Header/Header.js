@@ -4,7 +4,7 @@ import Content from '../Header/Content/Content';
 import './Header.css'
 const Header = props => (
     <header className="header">
-        <Toolbar />
+        <Toolbar click={props.onDrawerClick} />
         <div className="container">
             <Content style={{marginTop: '50px'}} />
         </div>

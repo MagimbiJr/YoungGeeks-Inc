@@ -19,10 +19,10 @@ const Toolbar = props => {
      //this will be anything that changes the UI 
      // example fetching remote data or accessing window
 
-     window.addEventListener("wheel",handleScroll)
+     window.addEventListener("scroll",handleScroll)
     
      return ()=>{
-         window.removeEventListener("wheel")
+         window.removeEventListener("scroll")
      }
     },[])
     return (
@@ -58,7 +58,7 @@ const Toolbar = props => {
                     </ul>
                 </div>
                 <div>
-                    <button className="button" onClick={props.onDrawerClick}>
+                    <button className="button" onClick={props.click}>
                         <i className="fas fa-bars"></i>
                     </button>
                 </div>
