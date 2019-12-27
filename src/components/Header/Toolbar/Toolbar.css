@@ -33,6 +33,7 @@
 
 .navigations {
     display: flex;
+    justify-content: center;
 }
 
 .logo a {
@@ -116,15 +117,30 @@
 }
 
 @media (max-width: 414px) {
+    .toolbar_scroll {
+        height: 30px;
+    }
+    .toolbar .container {
+        width: 95%;
+    }
+    .logo a {
+        font-size: 160%;
+    }
+
+    .button i {
+        font-size: 190%;
+    }
+
+    .button {
+        margin-top: 6px;
+        padding-top: 0;
+    }
+
     .header {
         height: 100vh;
     }
 
     .navbar {
-        width: 95%;
-    }
-
-    .container {
         width: 95%;
     }
 }
